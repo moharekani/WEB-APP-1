@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+
+    <div style="background-color: lightblue; padding: 10px; text-align: center;">
+        <h1>Welcome to Mohamed's Personal Webpage</h1>
+    </div>
+
+    <div class="flex" style="display: flex; justify-content: space-between; margin: 20px;">
+        <div style="background-color: lightgray; padding: 20px; width: 30%;">
+            <h2><span>About Me</span></h2>
+            <p>Here are a few projects I have worked on:</p>
+            <ul>
+                <li>Project 1: Writing this HTML page for this course.</li>
+                <li>Project 2: Working with CSS Language in my first year semester.</li>
+                <li>Project 3: Building a concept for HCI course.</li>
+            </ul>
+            <h2><span>Skills</span></h2>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>C++</li>
+            </ol>
+        </div>
+        
+        <div style="background-color: lightyellow; padding: 20px; width: 40%;">
+            <h2><span>Course Work</span></h2>
+            <p>Here is a table showing some of the courses I've taken:</p>
+            <table border="1" style="width: 100%; text-align: center;">
+                <tr>
+                    <th style="background-color: lightgray;"><b>Course Name</b></th>
+                    <th style="background-color: lightgray;"><b>Instructor</b></th>
+                    <th style="background-color: lightgray;"><b>Year</b></th>
+                </tr>
+                <tr>
+                    <td>Introduction to Programming</td>
+                    <td>Prof. A</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>Data Structures & Algorithm</td>
+                    <td>Prof. B</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>Web Application Development I</td>
+                    <td>Prof. C</td>
+                    <td>2024</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div style="background-color: lightpink; padding: 20px; width: 25%;">
+            <h2><span>Contact Me</span></h2>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+        
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea><br><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    
+    <footer style="background-color: lightblue; text-align: center; padding: 10px;">
+        <h2><span>Photo Gallery</span></h2>
+        <p>Here are some photos of my favorite activities:</p>
+        <img src="https://images.pexels.com/photos/47730/the-ball-stadion-football-the-pitch-47730.jpeg?cs=srgb&dl=pexels-pixabay-47730.jpg&fm=jpg" alt="Football Stadium" width="300" height="200">
+        <img src="https://cdn.shopify.com/s/files/1/0263/0936/1717/files/billiard-cue-and-pool-balls_480x480.jpg?v=1657554677" alt="Billiard Balls" width="300" height="200">
+        <p>"The future belongs to those who believe in the beauty of their dreams." - Eleanor Roosevelt</p>
+        <p>© 2024 Mohamed I. Jalaludeen. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
